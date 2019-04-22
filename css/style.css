@@ -306,7 +306,7 @@ btn-blue:focus {
 
 
 /*=====================================
-                WORK section
+               Gallery / WORK section
 first in the HTML container is the row div
 
 class star selects all of the columns with no-gutter class
@@ -340,6 +340,16 @@ and sets padding to 0, as it fills the entire screen
     background-color: black;
 }
 
+#work h3{
+    color: white;
+}
+
+#league-css {
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
 
 /*=====================================
                 TEAM section
@@ -347,6 +357,10 @@ and sets padding to 0, as it fills the entire screen
 
 #team {
     background-image: url(../img/ERABackground.png);
+}
+
+#team h3{
+    color: white;
 }
 
 .team-member {
@@ -643,6 +657,10 @@ ul.pricing-spec li p {
 
 .creations {
     padding: 40px 0;
+}
+
+#clients h3{
+    color: white;
 }
 
 /*=====================================
