@@ -44,11 +44,11 @@ $(function () {
                     items: 1
             },
             // breakpoint from 480 up
-            480 : {
+            650 : {
                     items: 2
             },
-            // breakpoint from 768 up
-            768 : {
+            // breakpoint from 1100px width up
+            1100 : {
                     items: 3
             }
         }
