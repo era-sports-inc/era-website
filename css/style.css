@@ -281,7 +281,7 @@ btn-blue:focus {
 }
 
 #about-content-box-outer {
-    width: 111%;
+    width: 90%;
     height: 100;
 }
 
@@ -345,8 +345,7 @@ and sets padding to 0, as it fills the entire screen
 }
 
 #league-css {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0 20% 0 20%;
 
 }
 
@@ -365,6 +364,12 @@ and sets padding to 0, as it fills the entire screen
 
 .team-member {
     margin: 0 15px;
+    
+}
+
+.team-member img {
+    height: 340px;
+    max-width: 360px;
 }
 
 .team-member-info {
@@ -641,13 +646,10 @@ ul.pricing-spec li p {
 =======================================*/
 #clients {
     background-image: url(../img/ERABackground.png);
+    margin-top: -15px;
 }
 .client {
     padding: 40px 15px;
-}
-
-.mc_embed_signup {
-    background-image: url(../img/ERABackground.png);
 }
 
 
@@ -769,6 +771,15 @@ form .form-control {
     padding: 20px 0;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
+}
+
+.navbar-brand {
+    color: gold;
+    font-size: 17px;
+}
+
+.navbar-header a:hover {
+    color: yellow;
 }
 
 .page-top-nav {
